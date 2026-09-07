@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0575E6,100:00F260&height=200&section=header&text=Zakaria%20Sadeh&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%2C%20Data%20Scientist%2C%20LLM%20and%20RAG%20Systems&descAlignY=55&descSize=18" width="100%"/>
+<img src="assets/banner.svg" width="100%" alt="Zakaria Sadeh - AI Engineer, Data Scientist, LLM and RAG systems"/>
 
 </div>
 

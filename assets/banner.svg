@@ -1,0 +1,30 @@
+<svg width="1200" height="270" viewBox="0 0 1200 270" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="55%" stop-color="#070b16"/>
+      <stop offset="78%" stop-color="#122a6e"/>
+      <stop offset="92%" stop-color="#2456e0"/>
+      <stop offset="100%" stop-color="#8fbcff"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="1200" height="270" rx="24" ry="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect x="0" y="0" width="1200" height="270" fill="url(#bg)"/>
+    <rect x="0" y="0" width="1200" height="270" fill="url(#grid)"/>
+  </g>
+
+  <text x="50%" y="46%" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="700"
+        font-size="64" fill="#ffffff">Zakaria Sadeh</text>
+
+  <text x="50%" y="66%" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="400"
+        font-size="26" fill="#cbd5e1">AI Engineer, Data Scientist, LLM and RAG systems</text>
+</svg>
