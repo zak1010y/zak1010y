@@ -22,24 +22,21 @@
     <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="9"/>
     </filter>
-    <style>
-      @keyframes breathe {
-        0%, 100% { opacity: 0.75; }
-        50% { opacity: 1; }
-      }
-      .glow-rect {
-        animation: breathe 4.5s ease-in-out infinite;
-        transform-origin: center;
-      }
-    </style>
   </defs>
 
   <g clip-path="url(#rounded)">
     <rect x="0" y="0" width="1200" height="270" fill="url(#bg)"/>
     <rect x="0" y="0" width="1200" height="270" fill="url(#grid)"/>
-    <rect class="glow-rect" x="4" y="4" width="1192" height="262" rx="22" ry="22"
+    <rect x="4" y="4" width="1192" height="262" rx="22" ry="22"
           fill="none" stroke="url(#borderGlow)" stroke-width="10"
-          filter="url(#softBlur)" opacity="0.95"/>
+          filter="url(#softBlur)" opacity="0.9">
+      <animate attributeName="stroke-width" values="10;16;10" dur="4.5s"
+               calcMode="spline" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4.5s"
+               calcMode="spline" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"
+               repeatCount="indefinite"/>
+    </rect>
     <rect x="4" y="4" width="1192" height="262" rx="22" ry="22"
           fill="none" stroke="url(#borderGlow)" stroke-width="1.5" opacity="0.8"/>
   </g>
