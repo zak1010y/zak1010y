@@ -27,13 +27,12 @@
   <g clip-path="url(#rounded)">
     <rect x="0" y="0" width="1200" height="270" fill="url(#bg)"/>
     <rect x="0" y="0" width="1200" height="270" fill="url(#grid)"/>
+    <rect x="4" y="4" width="1192" height="262" rx="22" ry="22"
+          fill="none" stroke="url(#borderGlow)" stroke-width="10"
+          filter="url(#softBlur)" opacity="0.95"/>
+    <rect x="4" y="4" width="1192" height="262" rx="22" ry="22"
+          fill="none" stroke="url(#borderGlow)" stroke-width="1.5" opacity="0.8"/>
   </g>
-
-  <rect x="4" y="4" width="1192" height="262" rx="22" ry="22"
-        fill="none" stroke="url(#borderGlow)" stroke-width="10"
-        filter="url(#softBlur)" opacity="0.95"/>
-  <rect x="4" y="4" width="1192" height="262" rx="22" ry="22"
-        fill="none" stroke="url(#borderGlow)" stroke-width="1.5" opacity="0.8"/>
 
   <text x="50%" y="46%" text-anchor="middle" dominant-baseline="middle"
         font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="700"
